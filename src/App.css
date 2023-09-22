@@ -1,0 +1,32 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+}
+
+.Navigation, .Biography {
+    position: relative;
+    z-index: 1;
+}
+nav{
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 25px;
+    transition: .2s;
+}
+a:hover{
+    color: #227aff;
+    text-decoration: none;
+}
+
+#threejs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

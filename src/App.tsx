@@ -1,10 +1,18 @@
-import ListGroup from "./components/ListGroup";
+import React, { useEffect } from "react";
+import "./App.css";
+import Biography from "./components/Biography";
+import Navigation from "./components/Navigation";
+import Background from "./components/Background";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div>
-      <ListGroup />
-    </div>
+    <>
+      <Background />
+      <Navigation />
+      <Biography />
+      <Projects />
+    </>
   );
 }
 
