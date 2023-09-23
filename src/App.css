@@ -30,3 +30,30 @@ a:hover{
     left: 0;
     z-index: -1;
 }
+.project-card{
+    background-color: rgba(128, 128, 128, 0.5);
+    margin: 15px 0;
+    display: flex;
+
+}
+.project-card-text{
+    margin:15px;
+
+}
+.project-card-text a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .2s;
+    margin: 0 15px 0 0;
+
+}
+
+.project-card-text a:hover {
+    color: #227aff;
+    text-decoration: none;
+
+}
+.project-img{
+    height: 250px;
+    margin: 15px;
+}
