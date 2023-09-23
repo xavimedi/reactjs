@@ -10,10 +10,12 @@ const projectsData = [
     langs: "Java, HTML, CSS, Spring, MapBox, MySQL",
   },
   {
-    title: "Project 2",
-    photo: "project2.jpg",
-    link: "https://example.com/project2",
+    title: "CoffeeScript Café",
+    photo: "CoffeeScript.png",
+    link: "https://java.codeup.com/javascript-i/coffee-project/",
+    github: "https://github.com/Medina-OSullivan-Coffee-Project/coffee-project",
     description: "Description for Project 2",
+    langs: "JavaScript, HTML, CSS, jQuery, Unit Testing",
   },
   {
     title: "Project 3",
