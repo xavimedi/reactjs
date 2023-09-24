@@ -25,7 +25,7 @@ a:hover{
 }
 
 #threejs{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
@@ -38,6 +38,7 @@ a:hover{
 }
 .project-card-text{
     margin:15px;
+    display: inline-grid;
 
 }
 .project-card-text a {
@@ -56,4 +57,7 @@ a:hover{
 img{
     height: 250px;
     margin: 15px;
+}
+p{
+    line-height: 30px;
 }
