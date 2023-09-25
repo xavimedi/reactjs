@@ -1,6 +1,6 @@
-# React
+# React & TypeScript
 
-The purpose of this repository is to document the development of my exploration into React JS for my portfolio website.
+The purpose of this repository is to document the development of my exploration into React JS & TypeScript for my portfolio website.
 
 ## Benefits
 
@@ -18,3 +18,9 @@ https://legacy.reactjs.org/docs/getting-started.html
 https://www.w3schools.com/react/react_getstarted.asp
 
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
+
+https://www.typescriptlang.org/docs/
+
+https://www.w3schools.com/typescript/typescript_getstarted.php
+
+https://www.w3schools.com/typescript/typescript_getstarted.php
