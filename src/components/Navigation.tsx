@@ -3,7 +3,6 @@ import "../App.css";
 function Navigation() {
   return (
     <nav>
-      xavierMedina;
       <div className="links">
         <a
           href="https://github.com/xavimedi"

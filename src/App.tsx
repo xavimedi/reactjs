@@ -6,11 +6,9 @@ import Background from "./components/Background";
 import Navigation from "./components/Navigation";
 
 function App() {
-  // Create state variables to manage section visibility
   const [showBiography, setShowBiography] = useState(true);
   const [showProjects, setShowProjects] = useState(false);
 
-  // Function to toggle section visibility
   const toggleSection = ({ section }: { section: any }) => {
     setShowBiography(section === "biography");
     setShowProjects(section === "projects");
@@ -27,8 +25,10 @@ function App() {
         <a href="#" onClick={() => toggleSection({ section: "projects" })}>
           Projects
         </a>
+        <a href="#" onClick={() => toggleSection({ section: "projects" })}>
+          Projects
+        </a>
       </div>
-      {/* Conditional rendering of sections based on state */}
       {showBiography && <Biography />}
       {showProjects && <Projects />}
     </div>
