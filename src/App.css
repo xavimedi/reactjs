@@ -27,6 +27,9 @@
         margin: 0 25px;
         transition: .2s;
     }
+    p{
+        margin: 15px;
+    }
     a:hover{
         color: #227aff;
         text-decoration: none;
@@ -73,9 +76,18 @@
     }
 
     .skills{
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        justify-content: left;
         align-content: center;
+
+    }
+
+    .progress{
+        background-color: white;
+        width: 100%;
+    }
+
+    .loading{
 
     }
 }

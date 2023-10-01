@@ -6,6 +6,7 @@ import {
   faJava,
   faSquareJs,
   faLinkedin,
+  faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -18,6 +19,9 @@ let linkedin = "https://www.linkedin.com/in/xaviergmedina/";
 let email = "mailto:xavier.g.medina3@gmail.com";
 
 let blank = "_blank";
+
+let loading = "loading";
+let progress = "progress";
 
 function Biography() {
   return (
@@ -41,10 +45,22 @@ function Biography() {
         </div>
 
         <div className={skills}>
-          <FontAwesomeIcon icon={faJava} size="2xl" />
-          <FontAwesomeIcon icon={faSquareJs} size="2xl" />
-          <FontAwesomeIcon icon={faCss3} size="2xl" />
-          <FontAwesomeIcon icon={faHtml5} size="2xl" />
+          <p>
+            <FontAwesomeIcon icon={faJava} size="2xl" />
+            <div className={loading}>
+              <div className={progress}></div>
+              {/*  https://www.w3schools.com/howto/howto_js_progressbar.asp */}
+            </div>
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faSquareJs} size="2xl" />
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faCss3} size="2xl" />
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faHtml5} size="2xl" />
+          </p>
         </div>
 
         <p></p>
