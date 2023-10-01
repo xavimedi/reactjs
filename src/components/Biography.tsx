@@ -41,10 +41,10 @@ function Biography() {
         </div>
 
         <div className={skills}>
-          <FontAwesomeIcon icon={faJava} />
-          <FontAwesomeIcon icon={faSquareJs} />
-          <FontAwesomeIcon icon={faCss3} />
-          <FontAwesomeIcon icon={faHtml5} />
+          <FontAwesomeIcon icon={faJava} size="2xl" />
+          <FontAwesomeIcon icon={faSquareJs} size="2xl" />
+          <FontAwesomeIcon icon={faCss3} size="2xl" />
+          <FontAwesomeIcon icon={faHtml5} size="2xl" />
         </div>
 
         <p></p>

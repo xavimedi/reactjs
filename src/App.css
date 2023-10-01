@@ -73,7 +73,10 @@
     }
 
     .skills{
-        display: inline-grid;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+
     }
 }
 
