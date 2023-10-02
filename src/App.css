@@ -90,6 +90,12 @@
     .loading{
 
     }
+
+    #java{
+        background-color: white;
+        height: 5px;
+        width: 50px;
+    }
 }
 
 /* Small Devices (tablets) */

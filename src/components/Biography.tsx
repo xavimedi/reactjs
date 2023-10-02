@@ -45,13 +45,15 @@ function Biography() {
         </div>
 
         <div className={skills}>
-          <p>
+          <div>
+            {/*this div needs 100% width*/}
+
             <FontAwesomeIcon icon={faJava} size="2xl" />
             <div className={loading}>
-              <div className={progress}></div>
+              <div id="java"></div>
               {/*  https://www.w3schools.com/howto/howto_js_progressbar.asp */}
             </div>
-          </p>
+          </div>
           <p>
             <FontAwesomeIcon icon={faSquareJs} size="2xl" />
           </p>
