@@ -3,7 +3,6 @@ import "./App.css";
 import Biography from "./components/Biography";
 import Projects from "./components/Projects";
 import Background from "./components/Background";
-import Navigation from "./components/Navigation";
 
 function App() {
   const [showBiography, setShowBiography] = useState(true);
@@ -17,7 +16,6 @@ function App() {
   return (
     <div>
       <Background />
-      <Navigation />
       <div className="buttons">
         <a href="#" onClick={() => toggleSection({ section: "biography" })}>
           About
