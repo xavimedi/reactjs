@@ -30,6 +30,7 @@ function Biography() {
         <div>
           <img src={headshot} className="headshot" />
           <h1>Xavier Medina</h1>
+          <h3>Texas | US Army Veteran</h3>
         </div>
 
         <div className="contact">
@@ -45,24 +46,43 @@ function Biography() {
         </div>
 
         <div className={skills}>
-          <div>
-            {/*this div needs 100% width*/}
-
-            <FontAwesomeIcon icon={faJava} size="2xl" />
-            <div className={loading}>
-              <div id="java"></div>
-              {/*  https://www.w3schools.com/howto/howto_js_progressbar.asp */}
+          <div className="skill">
+            <div className="skill-icon">
+              <FontAwesomeIcon icon={faJava} size="2xl" />
+            </div>
+            <div className="skillbar">
+              <div className="javabar"></div>
+              <div className="javabar2"></div>
             </div>
           </div>
-          <p>
-            <FontAwesomeIcon icon={faSquareJs} size="2xl" />
-          </p>
-          <p>
-            <FontAwesomeIcon icon={faCss3} size="2xl" />
-          </p>
-          <p>
-            <FontAwesomeIcon icon={faHtml5} size="2xl" />
-          </p>
+          <div className="skill">
+            <div className="skill-icon">
+              <FontAwesomeIcon icon={faSquareJs} size="2xl" />
+            </div>
+            <div className="skillbar">
+              <div className="javascriptbar"></div>
+              <div className="javascriptbar2"></div>
+            </div>
+          </div>
+
+          <div className="skill">
+            <div className="skill-icon">
+              <FontAwesomeIcon icon={faHtml5} size="2xl" />
+            </div>
+            <div className="skillbar">
+              <div className="htmlbar"></div>
+              <div className="htmlbar2"></div>
+            </div>
+          </div>
+          <div className="skill">
+            <div className="skill-icon">
+              <FontAwesomeIcon icon={faCss3} size="2xl" />
+            </div>
+            <div className="skillbar">
+              <div className="cssbar"></div>
+              <div className="cssbar2"></div>
+            </div>
+          </div>
         </div>
 
         <p></p>

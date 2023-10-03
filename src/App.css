@@ -12,6 +12,328 @@
 
     h1{
         text-align: center;
+        margin: 0 0 15px;
+    }
+    h3{
+        text-align: center;
+        margin: 0;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px;
+        background-color: rgba(128, 128, 128, 0.5);
+    }
+    a{
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 25px;
+        transition: .2s;
+    }
+    p{
+        margin: 0 0 15px;
+    }
+    a:hover{
+        color: #227aff;
+        text-decoration: none;
+    }
+
+    #threejs{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .project-card{
+        background-color: rgba(128, 128, 128, 0.5);
+        margin: 15px 0;
+
+    }
+    .project-card-text{
+        margin: 0 15px;
+        display: inline-grid;
+
+    }
+    .project-card-text a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: .2s;
+        margin: 0 15px 0 0;
+
+    }
+
+    img{
+        width: 90%;
+        margin: 5%;
+    }
+
+    .bio {
+        background-color: rgba(128, 128, 128, 0.5);
+        margin: 15px 0;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px auto 0;
+
+    }
+
+    .skills{
+        display: grid;
+        justify-content: left;
+        align-content: center;
+        padding: 15px;
+    }
+    .skill-icon{
+        height: 35px;
+        width: 35px;
+    }
+    .skill{
+        margin: 0 0 5px;
+        display: flex;
+    }
+    .skillbar{
+        display: flex;
+        justify-content: end;
+    }
+    .javabar{
+        background-color: white;
+        width: 30vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .javabar2{
+        background-color: gray;
+        width: 45vw;
+        height: 5px;
+        margin: auto;
+    }
+    .javascriptbar{
+        background-color: white;
+        width: 25vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .javascriptbar2{
+        background-color: gray;
+        width: 50vw;
+        height: 5px;
+        margin: auto;
+    }
+    .htmlbar{
+        background-color: white;
+        width: 22vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .htmlbar2{
+        background-color: gray;
+        width: 53vw;
+        height: 5px;
+        margin: auto;
+    }
+    .cssbar{
+        background-color: white;
+        width: 20vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .cssbar2{
+        background-color: gray;
+        width: 55vw;
+        height: 5px;
+        margin: auto;
+    }
+    .progress{
+        background-color: white;
+        width: 100%;
+    }
+
+    .projectgithub{
+        display: inline-grid;
+        justify-content: end;
+    }
+}
+
+/* Small Devices (tablets) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    * {
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1em;
+        color: white;
+    }
+
+    nav{
+        display: none;
+    }
+
+    h1{
+        text-align: center;
+        margin: 0 0 15px;
+    }
+    h3{
+        text-align: center;
+        margin: 0;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px;
+        background-color: rgba(128, 128, 128, 0.5);
+    }
+    a{
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 25px;
+        transition: .2s;
+    }
+    p{
+        margin: 0 0 15px;
+    }
+    a:hover{
+        color: #227aff;
+        text-decoration: none;
+    }
+
+    #threejs{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .project-card{
+        background-color: rgba(128, 128, 128, 0.5);
+        margin: 15px 0;
+
+    }
+    .project-card-text{
+        margin: 0 15px;
+        display: inline-grid;
+
+    }
+    .project-card-text a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: .2s;
+        margin: 0 15px 0 0;
+
+    }
+
+    img{
+        width: 90%;
+        margin: 5%;
+    }
+
+    .bio {
+        background-color: rgba(128, 128, 128, 0.5);
+        margin: 15px 0;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px auto 0;
+
+    }
+
+    .skills{
+        display: grid;
+        justify-content: left;
+        align-content: center;
+        padding: 15px;
+    }
+    .skill-icon{
+        height: 35px;
+        width: 35px;
+    }
+    .skill{
+        margin: 0 0 5px;
+        display: flex;
+    }
+    .skillbar{
+        display: flex;
+        justify-content: end;
+    }
+    .javabar{
+        background-color: white;
+        width: 30vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .javabar2{
+        background-color: gray;
+        width: 45vw;
+        height: 5px;
+        margin: auto;
+    }
+    .javascriptbar{
+        background-color: white;
+        width: 25vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .javascriptbar2{
+        background-color: gray;
+        width: 50vw;
+        height: 5px;
+        margin: auto;
+    }
+    .htmlbar{
+        background-color: white;
+        width: 22vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .htmlbar2{
+        background-color: gray;
+        width: 53vw;
+        height: 5px;
+        margin: auto;
+    }
+    .cssbar{
+        background-color: white;
+        width: 20vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .cssbar2{
+        background-color: gray;
+        width: 55vw;
+        height: 5px;
+        margin: auto;
+    }
+    .progress{
+        background-color: white;
+        width: 100%;
+    }
+
+    .projectgithub{
+        display: inline-grid;
+        justify-content: end;
+    }
+
+}
+
+/* Medium Devices (laptops and small desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    * {
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1em;
+        color: white;
+    }
+
+    nav{
+        display: none;
+    }
+
+    h1{
+        text-align: center;
+        margin: 0 0 15px;
+    }
+    h3{
+        text-align: center;
         margin: 0;
     }
 
@@ -71,7 +393,7 @@
     .contact{
         display: flex;
         justify-content: space-evenly;
-        margin: 15px;
+        margin: 15px auto 0;
 
     }
 
@@ -79,37 +401,77 @@
         display: grid;
         justify-content: left;
         align-content: center;
-
+        padding: 15px;
     }
-
+    .skill-icon{
+        height: 35px;
+        width: 35px;
+    }
+    .skill{
+        margin: 0 0 5px;
+        display: flex;
+    }
+    .skillbar{
+        display: flex;
+        justify-content: end;
+    }
+    .javabar{
+        background-color: white;
+        width: 30vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .javabar2{
+        background-color: gray;
+        width: 45vw;
+        height: 5px;
+        margin: auto;
+    }
+    .javascriptbar{
+        background-color: white;
+        width: 25vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .javascriptbar2{
+        background-color: gray;
+        width: 50vw;
+        height: 5px;
+        margin: auto;
+    }
+    .htmlbar{
+        background-color: white;
+        width: 22vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .htmlbar2{
+        background-color: gray;
+        width: 53vw;
+        height: 5px;
+        margin: auto;
+    }
+    .cssbar{
+        background-color: white;
+        width: 20vw;
+        height: 5px;
+        margin: auto 0 auto 15px;
+    }
+    .cssbar2{
+        background-color: gray;
+        width: 55vw;
+        height: 5px;
+        margin: auto;
+    }
     .progress{
         background-color: white;
         width: 100%;
     }
 
-    .loading{
-
-    }
-
-    #java{
-        background-color: white;
-        height: 5px;
-        width: 50px;
-    }
     .projectgithub{
         display: inline-grid;
         justify-content: end;
     }
-}
-
-/* Small Devices (tablets) */
-@media (min-width: 576px) and (max-width: 767px) {
-    /* CSS rules for small devices go here */
-}
-
-/* Medium Devices (laptops and small desktops) */
-@media (min-width: 768px) and (max-width: 991px) {
-    /* CSS rules for medium devices go here */
 }
 
 /* Large Devices (desktops) */

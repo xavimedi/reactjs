@@ -13,7 +13,7 @@ const projectsData = [
       " for repairs, work orders of properties, and inquiries for potential" +
       " rental properties. Listings can be made with a full comprehensive" +
       " list of features and photos. Utilizes MapBox and FileStack for geolocation" +
-      " and image hosting, respectively.",
+      " and image hosting, respectively. Built while attending Codeup.",
     langs: "Java, HTML, CSS, Spring, MapBox, MySQL",
   },
   {
@@ -23,7 +23,7 @@ const projectsData = [
     description:
       "A full stack web application for searching, sorting, and filtering" +
       " a collection of coffees with various roasts and flavors. Allows a user" +
-      " to add coffee by name and roast by allowing the creation of a JavaScript object.",
+      " to add coffee by name and roast by allowing the creation of a JavaScript object. Built while attending Codeup.",
     langs: "JavaScript, HTML, CSS, jQuery, Unit Testing",
   },
   {
@@ -33,7 +33,7 @@ const projectsData = [
     description:
       "A full stack web application designed to be a 'Craigslist' clone" +
       " that allows the creation of a user account, required to post, edit, and" +
-      " view other ads posted. User information in the database is encrypted with JBCrypt.",
+      " view other ads posted. User information in the database is encrypted with JBCrypt. Built while attending Codeup.",
     langs: "JavaScript, JSP, HTML, CSS, TomCat, JSP, MySQL, JDBC, JBCrypt",
   },
 ];
