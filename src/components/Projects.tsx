@@ -1,4 +1,6 @@
 import React from "react";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const projectsData = [
   {
@@ -43,12 +45,18 @@ class ProjectCard extends React.Component<{ project: any }> {
       <div className="project-card">
         <img className="project-img" src={project.photo} />
         <div className="project-card-text">
-          {project.title}
+          <p>{project.title}</p>
           <p>{project.description}</p>
           <p>{project.langs}</p>
-          <a href={project.github} target="_blank">
-            github
-          </a>
+          <p className="projectgithub">
+            <a href={project.github} target="_blank">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2xl"
+                style={{ color: "#000000" }}
+              />
+            </a>
+          </p>
         </div>
       </div>
     );

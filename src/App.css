@@ -28,7 +28,7 @@
         transition: .2s;
     }
     p{
-        margin: 15px;
+        margin: 0 0 15px;
     }
     a:hover{
         color: #227aff;
@@ -61,7 +61,7 @@
 
     img{
         width: 90%;
-        margin: 5%;
+        margin: 15px;
     }
 
     .bio {
@@ -95,6 +95,10 @@
         background-color: white;
         height: 5px;
         width: 50px;
+    }
+    .projectgithub{
+        display: inline-grid;
+        justify-content: end;
     }
 }
 
