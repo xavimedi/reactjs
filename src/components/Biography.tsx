@@ -1,3 +1,5 @@
+import headshot from "../assets/headshot.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCss3,
@@ -10,7 +12,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-let headshot = "/headshot.jpg";
 let bio = "bio";
 let skills = "skills";
 

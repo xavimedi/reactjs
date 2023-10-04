@@ -1,11 +1,14 @@
 import React from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Residential from "../assets/Residentials.png";
+import CoffeeScript from "../assets/CoffeeScript.png";
+import Adlister from "../assets/Adlister.png";
 
 const projectsData = [
   {
     title: "KXZ Residentials",
-    photo: "Residentials.png",
+    photo: Residential,
     github: "https://github.com/Kyaw-Hughes-Medina-Capstone/Residential",
     description:
       "A full stack web application for bringing together property managers" +
@@ -18,7 +21,7 @@ const projectsData = [
   },
   {
     title: "CoffeeScript Café",
-    photo: "CoffeeScript.png",
+    photo: CoffeeScript,
     github: "https://github.com/Medina-OSullivan-Coffee-Project/coffee-project",
     description:
       "A full stack web application for searching, sorting, and filtering" +
@@ -28,7 +31,7 @@ const projectsData = [
   },
   {
     title: "Java Adlister",
-    photo: "Adlister.png",
+    photo: Adlister,
     github: "https://github.com/Hughes-Mata-Medina-Adlister/Adlister",
     description:
       "A full stack web application designed to be a 'Craigslist' clone" +
