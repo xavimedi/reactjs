@@ -85,11 +85,7 @@ function Biography() {
             </div>
           </div>
         </div>
-
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <div></div>
       </div>
     </>
   );
