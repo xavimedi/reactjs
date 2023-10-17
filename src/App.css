@@ -315,10 +315,10 @@
     }
 
     h1{
-        margin: 0;
+        margin: 5px;
     }
     h3{
-        margin: 0;
+        margin: 5px;
     }
 
     .buttons{
@@ -330,7 +330,7 @@
     a{
         color: #ffffff;
         text-decoration: none;
-        margin: 0 25px;
+        margin: auto;
     }
     p{
         margin: 0 0 15px;
@@ -371,9 +371,9 @@
         display: flex;
     }
     .contact{
+        display: grid;
         justify-content: space-evenly;
-        margin: 15px auto 0;
-
+        margin: 10px;
     }
 
     .skills{
