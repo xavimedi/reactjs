@@ -315,11 +315,9 @@
     }
 
     h1{
-        text-align: center;
-        margin: 0 0 15px;
+        margin: 0;
     }
     h3{
-        text-align: center;
         margin: 0;
     }
 
@@ -363,16 +361,16 @@
     }
 
     img{
-        width: 30%;
+        width: 100%;
         margin: 1%;
     }
 
     .bio {
         background-color: rgba(128, 128, 128, 0.5);
         margin: 15px 0;
+        display: flex;
     }
     .contact{
-        display: flex;
         justify-content: space-evenly;
         margin: 15px auto 0;
 
